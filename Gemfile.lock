@@ -1,0 +1,67 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    charty (0.2.11)
+      matplotlib (>= 1.2.0)
+      pandas (>= 0.3.5)
+      playwright-ruby-client
+      red-colors (>= 0.3.0)
+      red-datasets (>= 0.1.2)
+      red-palette (>= 0.5.0)
+    concurrent-ruby (1.1.10)
+    csv (3.2.2)
+    data_uri (0.1.0)
+    ffi (1.15.5)
+    ffi-rzmq (2.0.7)
+      ffi-rzmq-core (>= 1.0.7)
+    ffi-rzmq-core (1.0.7)
+      ffi
+    io-console (0.5.11)
+    irb (1.4.1)
+      reline (>= 0.3.0)
+    iruby (0.7.4)
+      data_uri (~> 0.1)
+      ffi-rzmq
+      irb
+      mime-types (>= 3.3.1)
+      multi_json (~> 1.11)
+      native-package-installer
+    matplotlib (1.2.0)
+      pycall (>= 1.0.0)
+    matrix (0.4.2)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    multi_json (1.15.0)
+    native-package-installer (1.1.4)
+    numpy (0.4.0)
+      pycall (>= 1.2.0.beta1)
+    pandas (0.3.8)
+      numpy
+      pycall (>= 1.0.0)
+    playwright-ruby-client (1.20.0)
+      concurrent-ruby (>= 1.1.6)
+      mime-types (>= 3.0)
+    pycall (1.4.1)
+    red-colors (0.3.0)
+      matrix
+    red-datasets (0.1.4)
+      csv (>= 3.0.5)
+      rexml
+      rubyzip
+    red-palette (0.5.0)
+      red-colors (>= 0.3.0)
+    reline (0.3.1)
+      io-console (~> 0.5)
+    rexml (3.2.5)
+    rubyzip (2.3.2)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  charty
+  iruby
+
+BUNDLED WITH
+   2.3.7
